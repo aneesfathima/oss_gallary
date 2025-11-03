@@ -3,6 +3,7 @@ import Header from "@/components/header";
 import FeatureSection from "@/components/homepage/feature-section";
 import HeroSection from "@/components/homepage/hero-section";
 import AllProjects from "./all projects/page";
+import Freecodecamp from "./freecodecamp/page";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <FeatureSection />
       <AllProjects />
+      <Freecodecamp />
     </div>
   );
 }

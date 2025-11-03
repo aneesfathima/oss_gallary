@@ -6,7 +6,7 @@ import { Button } from "../ui/button";
 const FeatureSection = () => {
   return (
     <div className="w-full max-w-4xl mx-auto">
-      <h1 className="text-xl text-left font-bold">All Projects</h1>
+      <h1 className="text-xl text-left font-bold">Featured</h1>
       {/* cards container */}
       <div className="flex flex-row gap-3 pt-4 pb-16 border-b border-gray-200">
         {/* card 1 */}
