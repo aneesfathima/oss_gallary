@@ -4,8 +4,8 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 export default function Freecodecamp() {
   return (
-    <div className="h-auto w-full">
-    <div className="w-full max-w-4xl mx-auto">
+    <div className="h-auto w-full sm:flex-col px-4">
+    <div className="w-full max-w-4xl mx-auto ">
       {/* cards container */}
       <div className="flex flex-row gap-5 p-2">
         {/* card 1 */}

@@ -5,10 +5,10 @@ import { Button } from "../ui/button";
 
 const FeatureSection = () => {
   return (
-    <div className="w-full max-w-4xl mx-auto">
+    <div className="w-full max-w-4xl mx-auto sm:flex-col px-4">
       <h1 className="text-xl text-left font-bold">Featured</h1>
       {/* cards container */}
-      <div className="flex md:flex-row gap-3 pt-4 pb-16 border-b border-gray-200 sm:flex-col">
+      <div className="flex md:flex-row gap-3 pt-4 pb-16 border-b border-gray-200 sm:flex-col mb-6">
         {/* card 1 */}
         <div className="relative w-full flex flex-col h-80 shadow-sm hover:-translate-y-1 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 bg-white">
           <div className="bg-linear-to-tr from-black via-stone-800 to-stone-500 h-2/5"></div>
