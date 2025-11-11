@@ -17,15 +17,15 @@ const HeroSection = () => {
       <h1 className="text-gray-600 text-xl">
         source projects on the internet.
       </h1>
-      <div className="relative h-12">
+      <div className="relative h-12 w-full max-w-2xl px-4 md:px-0">
         <input
           type="text"
           placeholder="Search for a project"
-          className="w-125 pl-8 py-2 shadow-2xl border border-gray-400 rounded-sm focus:outline-none focus:ring-1 focus:ring-gray-600 "
+          className="w-full  h-12 pl-8 md:pl-12 shadow-2xl border border-gray-400 rounded-sm focus:outline-none focus:ring-1 focus:ring-gray-600 "
         />
         <Link2
           size={20}
-          className="text-gray-400 absolute -top-0.5 left-2 h-full "
+          className="text-gray-400 absolute  left-6 h-12 top-0"
         />
       </div>
     </div>
