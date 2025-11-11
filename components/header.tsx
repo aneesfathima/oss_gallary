@@ -6,7 +6,7 @@ import Image from "next/image";
 const Header = () => {
   return (
     <div className="relative flex flex-row items-center justify-between w-full py-2 border-b">
-      <div className="flex items-center justify-between max-w-3xl w-full mx-auto">
+      <div className="flex items-center justify-between max-w-3xl w-full px-4 md:px-0  mx-auto">
         <Image
           src="/logomark.svg"
           alt="logo Image"
